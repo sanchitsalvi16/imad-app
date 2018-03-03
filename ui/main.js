@@ -3,3 +3,8 @@ console.log('Loaded!');
 var element=document.GetElementbyId('main-text'
 );
 element.innerHtml='new value';
+//move the image
+var img= document.getElementbyId('id');
+img.onclick=function () {
+    img.style.leftmargin='100px';
+}
